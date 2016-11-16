@@ -29,3 +29,13 @@ for (var j = 0; j < cross.length; j++) {
   cross[j].addEventListener("click", close);
 }
 };
+
+
+//Showing phone number and e-mail address
+
+/*var email = document.querySelector(".email");
+var number = document.querySelector(".mobile");
+
+number.addEventListener("mouseenter", function() {
+  
+})*/

@@ -274,3 +274,82 @@ h1 {
   bottom:-70px;
 }
 
+.icons {
+  width: 58%;
+  margin:0 auto;
+  margin-top: 285px; }
+  .icons .icon {
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    display: inline-block;
+margin-right:0;
+width:100px;
+}
+  .icons .fb {
+    background-image: url("../img/facebook.png");
+    height: 90px;
+    width: 70px; }
+  .icons .fb:hover {
+    background-position: top; }
+  .icons .github {
+    background-image: url("../img/github.png");
+    height: 78px;
+    margin-top: 20px; }
+  .icons .github:hover {
+    background-position: top; }
+  .icons .linkedin {
+    background-image: url("../img/linkedin.png");
+    height: 89px;
+}
+  .icons .linkedin:hover {
+    background-position: top; }
+  .icons .phone {
+    background-image: url("../img/mobile.png");
+    height: 89px;
+}
+  .icons .phone-number, .icons .email-address {
+    display: none; }
+  .icons .phone:hover {
+    background-position: top;
+}
+.icons .email {
+  background-image: url("../img/email.png");
+    height: 67px;
+  margin-top:32px;
+ }
+  .icons .email:hover {
+    background-position: top; }
+}
+/*---------UMIEJĘTNOŚCI------------*/
+.skillSection .skill-container {
+  width:100%;
+  height:300px;
+}
+.skillSection .skill-container .skill {
+  width:48%;
+  display:inline-block;
+}
+.skillSection .skill p {
+  color:white;
+  font-size:15px;
+  width:200px;
+  text-align:center;
+  margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.skillSection .skill .skill-wrap {
+  height:8px;
+  width:200px;
+  background-color:hotpink;
+  border-radius:5px;
+  margin:0 auto;
+}
+.skillSection .skill .skill-wrap div {
+  height:4px;
+  width: 100px;
+  position:relative;
+    top: 50%;
+    transform: translateY(-50%);
+  background-color: #2cc184;
+}
